@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>M. Ramya | Portfolio</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f8ff;
+            color: #243047;
+            line-height: 1.6;
+        }
+
+        header {
+            background: #ffffff;
+            padding: 20px 8%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            box-shadow: 0 2px 10px #dce5f2;
+        }
+
+        header h2 {
+            color: #1769d2;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #243047;
+            margin: 8px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #1769d2;
+        }
+
+        section {
+            padding: 65px 10%;
+        }
+
+        .hero {
+            min-height: 75vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+        }
+
+        .hero h1 {
+            font-size: 44px;
+            color: #1769d2;
+            margin: 10px 0;
+        }
+
+        .hero h2 {
+            font-size: 25px;
+        }
+
+        .hero p {
+            margin: 12px 0 25px;
+            max-width: 600px;
+        }
+
+        .button {
+            display: inline-block;
+            background: #1769d2;
+            color: white;
+            padding: 12px 24px;
+            border-radius: 7px;
+            text-decoration: none;
+            margin: 5px 8px 5px 0;
+        }
+
+        .button:hover {
+            background: #0d4da3;
+        }
+
+        .section-title {
+            color: #1769d2;
+            font-size: 30px;
+            margin-bottom: 20px;
+        }
+
+        .card {
+            background: white;
+            padding: 25px;
+            margin: 15px 0;
+            border-radius: 12px;
+            box-shadow: 0 3px 14px #e0e9f6;
+        }
+
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+        }
+
+        .skills span {
+            background: #e1edff;
+            color: #1457a8;
+            padding: 10px 18px;
+            border-radius: 7px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 25px;
+            background: #1769d2;
+            color: white;
+        }
+
+        @media (max-width: 600px) {
+            header {
+                gap: 12px;
+            }
+
+            nav a {
+                display: inline-block;
+                margin: 5px;
+            }
+
+            .hero h1 {
+                font-size: 34px;
+            }
+
+            section {
+                padding: 45px 7%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h2>M. Ramya</h2>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#education">Education</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section class="hero" id="home">
+    <p>Hello! Welcome to my portfolio.</p>
+    <h1>Hi, I'm M. Ramya</h1>
+    <h2>BCA Student</h2>
+    <p>
+        I am a Bachelor of Computer Applications student
+        interested in learning technology, programming,
+        and developing my technical skills.
+    </p>
+    <a class="button" href="#about">Know More</a>
+    <a class="button" href="#contact">Contact Me</a>
+</section>
+
+<section id="about">
+    <h2 class="section-title">About Me</h2>
+    <div class="card">
+        <p>
+            Hello! I am M. Ramya, a BCA student who is interested
+            in computers and technology. I am eager to learn new
+            skills, improve my knowledge, and work on projects
+            that help me grow professionally.
+        </p>
+    </div>
+</section>
+
+<section id="education">
+    <h2 class="section-title">Education</h2>
+    <div class="card">
+        <h3>Bachelor of Computer Applications (BCA)</h3>
+        <p>Currently pursuing my degree.</p>
+        <p>College name and graduation year can be added here.</p>
+    </div>
+</section>
+
+<section id="skills">
+    <h2 class="section-title">My Skills</h2>
+    <div class="card">
+        <p>I am developing my technical skills and exploring:</p>
+        <br>
+        <div class="skills">
+            <span>HTML - Learning</span>
+            <span>CSS - Learning</span>
+            <span>Programming Basics</span>
+            <span>Communication</span>
+        </div>
+    </div>
+</section>
+
+<section id="projects">
+    <h2 class="section-title">My Projects</h2>
+    <div class="card">
+        <h3>Personal Portfolio Website</h3>
+        <p>
+            A personal website created using HTML and CSS
+            to introduce myself, showcase my education,
+            and share my learning journey.
+        </p>
+    </div>
+</section>
+
+<section id="contact">
+    <h2 class="section-title">Contact Me</h2>
+    <div class="card">
+        <p>Thank you for visiting my portfolio!</p>
+        <p>You can add your professional email address here.</p>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2026 M. Ramya | Personal Portfolio</p>
+</footer>
+
+</body>
+  </html>
